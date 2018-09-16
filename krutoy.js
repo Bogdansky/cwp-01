@@ -1,4 +1,5 @@
 const directory = process.argv[2];
+if (process.argv.length > 3)
 let code = "let directory = \""+directory+"\";"+
     "let fs = require(\"fs\");" +
     "fs.readdir(directory, function(error, items){" +
