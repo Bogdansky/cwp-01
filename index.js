@@ -8,4 +8,3 @@ if (i>1){
   console.log(item);
 }
 });
-
