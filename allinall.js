@@ -1,3 +1,4 @@
+/*
 let fs = require('fs');
 let path = require('path');
  let copyright = {"author" : "Bogdan Incorporated" , "symbol" : "@2018. All rights reserved." };
@@ -44,8 +45,15 @@ let path = require('path');
                   
          }     
          }     
-     });     
+     });
  return files_;    
  };     
       
- console.log(getFiles(directory));
+ console.log(getFiles(directory));*/
+
+const path = require("path");
+const address = process.argv[2];
+let array = address.split('\\');
+let ad = array.join('\\\\');
+console.log(array);
+console.log(ad);
